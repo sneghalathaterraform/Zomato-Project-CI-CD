@@ -6,9 +6,8 @@ on:
 
 jobs:
   trigger-build:
-    uses: devopsbyraham/Zomato-Project/.github/workflows/main.yml@main
+    uses: sneghalathaterraform/Zomato-Project-CI-CD/.github/workflows/main.yml@main
     with:
       node-version: '20'
     secrets:
       API_TOKEN: ${{ secrets.PROD_API_TOKEN }}
-
